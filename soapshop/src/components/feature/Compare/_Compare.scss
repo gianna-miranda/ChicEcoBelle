@@ -1,0 +1,18 @@
+.compare {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 50px;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.one {
+    text-align: center;
+    background-color: indianred;
+    height: 400px;
+}
+
+.two {
+    text-align: center;
+    background-color: skyblue;
+}
