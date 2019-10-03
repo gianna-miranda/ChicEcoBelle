@@ -1,0 +1,170 @@
+.main_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 1rem;
+    grid-gap: 1rem;
+ }
+ 
+ .bg-img1 {
+    background: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.32.40\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ }
+ .bg-img2 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.37.39\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ }
+ .bg-img3 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.52.46\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ }
+  .bg-img4 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 2.02.57\ PM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ }
+ .bg-img5 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.32.40\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ }
+ .bg-img6{
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.32.40\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ }
+ .bg-img7 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.32.40\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+
+ } .bg-img8 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.32.40\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+
+ } .bg-img9 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 2.16.14\ PM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+
+ } .bg-img10 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.37.39\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+   }
+ .bg-img11 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 2.02.57\ PM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+
+ } .bg-img12 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.52.46\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+
+ }
+ .bg-img13 { 
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.37.39\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ }
+  .bg-img14 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 2.02.57\ PM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+
+ } .bg-img15 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.52.46\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+
+ } .bg-img16 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.37.39\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+
+ } .bg-img17 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.52.46\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ }
+  .bg-img18 {
+    background-image: url(/image/images/Screen\ Shot\ 2019-08-15\ at\ 10.52.46\ AM.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    height: 400px;
+    width: 400px;
+ } 
