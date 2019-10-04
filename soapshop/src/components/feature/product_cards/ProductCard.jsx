@@ -1,6 +1,6 @@
 import React from "react";
 import './modal.css'
-
+//declaring 
 const ProductCard = ({id, title, price, Description}) => {
   return (
     <>

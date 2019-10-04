@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../feature/product_cards/modal.css'
+import"./modal.css"
 
 
 class Modal extends React.Component {
@@ -14,34 +15,44 @@ class Modal extends React.Component {
         .then(product => {
             console.log(product)
              this.setState({items: product})
-             // console.log(this.state)
-  
-             // this.state.map((index, item) => {
-             //     console.log(item)
-             //     console.log(index)
-             // })
-             // .catch(err => err)
          })
         }
-     render(){
-     return (
-         
-         <div className= "main_grid">
-         {this.state.items.map((item, index) => {
-            console.log(item)
-         //    console.log(index)
-              
-              return (
-                 <div key={index} className= {item.image_id}>
-                     <a href={item.hyperlink} target= "_blank" className="overlay">
-                         <p>{item.original_price}</p>
-                     </a>
-                 </div>
-                 )
-             })
-             }
-         </div>      
-     )
-  }
- }
+
+        render(){
+            return (
+                    <>
+                
+                    <section className="search">
+                        <label className="search__title">Search For Product</label>
+                        <input className="search__input" type="text" placeholder="Title" onChange={this.handleSearch} value={this.state.search} ></input>
+                    </section>
+                
+                {/* Grids for my products  */}
+                    <div className= "main_grid">
+                
+                        {this.state.items.map((item, index) => {
+                        
+                        return (
+                            
+                            <div key={index} className= {item.image_id}>
+                                <a href={item.hyperlink} target= "_blank">
+                                    <div className="overlay">
+                                        <p className="price">{item.original_price}</p>
+                                        <p className="name">{item.ProductName}</p> 
+                                    </div>
+                                </a>
+                            </div>
+                        
+                            )})
+                        }
+                    
+                    </div>
+        
+                    </>
+                
+                     
+            )
+         }
+        }
+
  export default Modal;

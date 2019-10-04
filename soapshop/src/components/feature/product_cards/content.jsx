@@ -1,6 +1,5 @@
 import React from 'react';
 import './content.css';
-
 import ProductCard from './ProductCard';
 
 class Content extends React.Component {
@@ -54,10 +53,11 @@ _filterByHighest = () => {
     render () {
         return (
         <>
+        {/* what makes the information from my db show up  */}
         <div className="wrap">
             {this.state.products.map(p => <ProductCard id={p.products_class} key={p.product_id} title={p.product_title} Description={p.Description} price={p.price}/>)}
         </div>
-
+        {/* rendering the buttons that filter my code */}
         <div className="filter">
             <h3 >Filter Soaps</h3>
             <button onClick={this._AtoZfilter}>Name From A-Z</button>
@@ -69,5 +69,6 @@ _filterByHighest = () => {
         )
     }
 }
+
  
 export default Content;
