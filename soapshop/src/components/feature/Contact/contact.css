@@ -31,10 +31,11 @@ label {
 
 .mb-4 {
     font-family: 'Playfair Display', serif;
+    margin-top:30vh;
 }
 form {
 text-align: center;
-margin-top:30vh;
+margin-top:20vh;
 }
 
 form a{
