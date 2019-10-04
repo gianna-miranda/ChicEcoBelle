@@ -4,10 +4,10 @@ import './modal.css'
 const ProductCard = ({id, title, price, Description}) => {
   return (
     <>
-      <div className={`${id}`}>
-        <p>{title}</p>
-        <p>{price}</p>
-        <p>{Description}</p>
+      <div   className={`${id}`}>
+        <p className='trynaH' >{title}</p>
+        <p className='trynaH' >{price}</p>
+        <p className='trynaH' >{Description}</p>
       </div>
     </>
   )

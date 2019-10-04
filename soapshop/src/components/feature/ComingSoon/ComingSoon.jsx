@@ -14,27 +14,27 @@ class ComingSoon extends React.Component {
                     <Carousel className="Carousel">
                         <div>
                             <img src="/image/comingSoonImg/img1.jpeg" id="lastClone" alt="" />
-                            <p className="legend">Legend 1</p>
+                           
                         </div>
                         
                         <div>
                             <img src="/image/comingSoonImg/img2.jpeg" alt="" />
-                            <p className="legend">Legend 2</p>
+                        
                         </div>
                         
                         <div>
                             <img src="/image/comingSoonImg/img3.jpeg" alt="" />
-                            <p className="legend">Legend 3</p>
+                            
                         </div>
                         
                         <div>
                             <img src="/image/comingSoonImg/img4.jpeg" id="lastClone" alt="" />
-                            <p className="legend">Legend 1</p>
+                            
                         </div>
                         
                         <div>
                             <img src="/image/comingSoonImg/img5.jpeg" alt="" />
-                            <p className="legend">Legend 2</p>
+                            
                         </div>
                         
                        
