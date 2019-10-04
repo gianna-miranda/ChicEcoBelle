@@ -1,0 +1,35 @@
+footer {
+    border-top: 1.5px solid green;
+    padding-top: 5px;
+    position: sticky;
+  }
+  .context-white,
+  .bg-green,
+  .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .footer-classic a,
+  .footer-classic a:focus,
+  .footer-classic a:active {
+    color: #ffffff;
+  }
+  
+  .nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  footer ul,
+  footer ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  

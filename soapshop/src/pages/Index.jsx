@@ -4,6 +4,7 @@ import Hero from '../components/feature/Hero/Hero';
 import Compare from '../components/feature/Compare/Compare';
 import ComingSoon from '../components/feature/ComingSoon/ComingSoon';
 import Footer from '../components/core/Footer/footer'
+import Benefits from '../components/feature/Benefits/benefits';
 
 class Index extends React.Component {
     render () {
@@ -12,6 +13,7 @@ class Index extends React.Component {
        <AppNav/>
        <Hero />
        <Compare />
+       <Benefits/>
        <ComingSoon/>
        <Footer/>
         </>

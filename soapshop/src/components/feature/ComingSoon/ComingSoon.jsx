@@ -40,7 +40,7 @@ class ComingSoon extends React.Component {
                        
                         
                 </Carousel>
-Co
+
 
                     </p>
                     

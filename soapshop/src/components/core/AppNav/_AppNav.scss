@@ -11,7 +11,7 @@
     width: 100%;
     z-index: 6;
     transition: .5s;
-    background-color: palevioletred;
+    background-color: green;
     opacity: .9;
     font-family: 'Raleway' , sans-serif;
     &--hidden {
@@ -159,9 +159,9 @@
 @media only screen and (max-width: 950px) {
     #nav:checked ~ .nav__list--wrapper {
         height: 100vh;
-        background-color:palevioletred;
+        background-color:lightpink;
     }
 }
 .active {
-    color: violet;
+    color: lightgreen;
 }
